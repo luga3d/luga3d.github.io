@@ -1,0 +1,47 @@
+.header-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    align-items: center;
+    justify-content: center;
+    max-width: 80vw;
+    margin: 2rem auto;
+}
+
+.logo {
+    text-align: center;
+}
+
+.avatar {
+    border: 3px solid #50C878;
+    border-radius: 33%;
+    width: 112px;
+    height: auto;
+    object-fit: cover;
+}
+
+.tagline {
+    font-size: 1.75rem;
+}
+
+.message {
+    text-align: center;
+
+    display: grid;
+    grid-template-columns: 80vw;
+    justify-content: center;
+}
+
+@media screen and (min-width: 500px) {
+    .message {
+        display: grid;
+        grid-template-columns: 400px;
+        justify-content: center;
+    }
+}
+
+.message p {
+    font-size: 1.15rem;
+    overflow-wrap: normal;
+    margin: 0 auto;
+}

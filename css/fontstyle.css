@@ -1,0 +1,13 @@
+@font-face {
+    font-family: MavenPro;
+    src: url(../fonts/Maven_Pro/MavenPro-VariableFont_wght.ttf);
+}
+
+body {
+    font-family: MavenPro;
+    color: #F8F8FF;
+}
+
+.icon-block p {
+    font-size: large;
+}
