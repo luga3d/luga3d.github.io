@@ -1,3 +1,7 @@
 body {
-    background-color: #5218FA;
+    background-color: var(--dark);
+}
+
+.section {
+    margin-top: 3rem;
 }

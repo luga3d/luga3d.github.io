@@ -5,5 +5,5 @@
 
 body {
     font-family: MavenPro;
-    color: #F8F8FF;
+    color: var(--light);
 }

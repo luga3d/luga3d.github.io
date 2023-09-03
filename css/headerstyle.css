@@ -5,23 +5,25 @@
     align-items: center;
     justify-content: center;
     max-width: 80vw;
-    margin: 2rem auto 1rem;
+    margin: 0 auto;
 }
 
 .logo {
     text-align: center;
+    margin: 0 auto;
 }
 
 .avatar {
-    border: 3px solid #50C878;
     border-radius: 33%;
     width: 112px;
     height: auto;
     object-fit: cover;
+    margin: 0 auto 2rem;
 }
 
 .tagline {
     font-size: 1.75rem;
+    margin: 0 auto 2rem;
 }
 
 .message {
@@ -30,12 +32,13 @@
     display: grid;
     grid-template-columns: 80vw;
     justify-content: center;
+    margin: 0 auto;
 }
 
-@media screen and (min-width: 500px) {
+@media (orientation: landscape) {
     .message {
         display: grid;
-        grid-template-columns: 400px;
+        grid-template-columns: 360px;
         justify-content: center;
     }
 }
